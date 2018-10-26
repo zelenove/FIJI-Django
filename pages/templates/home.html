@@ -1,7 +1,133 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
+<header>
+    <div class="container showcase">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="{% static 'images/fiji_crest.png'%}" width="10%" alt="Fijiheader">
+                <h1>Phi Gamma Delta</h1>
+                <h2>Tau Kappa Chapter</h2>
+                <h2>University of Toronto</h2>
+            </div>
+        </div>  
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+		<polygon fill="#FFFFFF" style="stroke:none; stroke-width:0" points="0,100 100,0 100,100"/>
+	</svg>
+</header>
 
-<img src="{% static 'images/grad.jpg'%}">
+<div id="brotherhood">
+    <div class="container">
+        <h2>Our Brotherhood</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{% static 'images/pig.png'%}" alt="chapter picture" width="80%">
+            </div>
+            <div class="col-md-6">
+                <p>
+                    We believe leaders can be everyone, everywhere. In fact, at FIJI, everyone within our fraternity walls is a leader in their own right. 
+                    And there are a few principles we believe—and we believe everyone should believe—about life as a college man. These truths drive us, motivate us, 
+                    and ultimately help us redefine the power of leadership. We’re big believers in doing right by our neighbors. After all, we grew up in Toronto 
+                    and we believe this place has much to offer. So we do what we can to support the community we live in.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="values">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="#FFFFFF" style="stroke:none; stroke-width:0" points="0,0 0,100 100,100"/>
+    </svg>
+    <div class="container">
+        <i class="fas fa-home faicon" style="padding-top: 30px;"></i>
+        <h3 class="valuesLeft">Founding</h3>
+        <h4 class="valuesLeft">May 1, 1848 at Jefferson College in Canonsburg, PA</h4>
+    
+        <i class="fas fa-star faicon"></i>
+        <h3 class="valuesRight">Our Values</h3>
+        <h4 class="valuesRight">Friendship, Knowledge, Service, Morality, Excellence</h4>
+        
+        <i class="fas fa-handshake faicon"></i>
+        <h3 class="valuesLeft">Our Mission</h3>
+        <h4 class="valuesLeft">Phi Gamma Delta unites men in enduring friendships, stimulates the pursuit of knowledge, and builds courageous leaders who serve the world with the best that is in them.</h4>
+
+        <i class="fas fa-calculator faicon"></i>
+        <h3 class="valuesRight">By The Numbers</h3>
+        <h4 class="valuesRight">180,000+ initiated brothers since 1848.
+        11,000+ undergraduate brothers in 151 Chapters and 14 Colonies</h4>
+    </div>
+</div>
+
+<div class="container" style="min-height: 400px; margin: 0;"></div>
+
+<div id="school">
+    <div class="container">
+        <div class="row">
+                <div class="col-md-6">
+                    <h2>Did you know?</h2>
+                    <p>Phi Gamma Delta gives out millions of dollars in scholarships to our brothers every year. The Foundation's Triple A is a $250 USD scholarship available to newly initiated members of Phi Gamma Delta who earn a 3.2 GPA during their pledging semester.</p>
+                </div>
+                <div class="col-md-4 offset-md-1">
+                    <img src="{% static 'images/black.png'%}" alt="">
+                </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon fill="#FFFFFF" style="stroke:none; stroke-width:0" points="0,100 100,0 100,100"/>
+  </svg>
+</div>
+
+<div id="prez">
+    <div class="container">
+        <h2 style="text-align: center; margin-top: 20px;">Message from the Chapter President</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 offset-md-2">
+                <p style="padding-top: 30px;">Our values help us seek those whom best match the qualities of a Fiji Gentlemen and of a candidate who can take full advantage of what our fraternity has to offer. Phi Gamma Delta provides opportunities to build meaningful connections and friendships, practice new skills, develop as a person and as a leader, all while maintaining the highest scholarship possible. Whether you want an chance to network with a large collection of well established Graduate Brothers, meet academically and culturally diverse people, receive scholarships from our Educational Foundation, live in the heart of downtown Toronto with a family of peers, or if you just want to get better at Water Pong, Fiji is the place for you.</p>
+            </div>
+
+            <div class="col-md-4 box">
+                <img src="{% static 'images/joly.jpg'%}" width="100%" alt="President">
+                <h3>Stephen Joly</h3>
+                <p>Chapter President</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+        window.sr = ScrollReveal();
+
+        sr.reveal(".showcase", {
+            duration: 1500,
+            origin:"right",
+            distance:"500px",
+            viewFactor:0.8
+        });
+
+        sr.reveal(".valuesLeft", {
+            duration: 1500,
+            origin:"left",
+            distance:"300px",
+            viewFactor:0.9
+        });
+
+        sr.reveal(".valuesRight", {
+            duration: 1500,
+            origin:"right",
+            distance:"300px",
+            viewFactor:0.9
+        });
+
+        sr.reveal("#school p", {
+            duration: 1500,
+            origin:"bottom",
+            distance:"300px",
+            viewFactor:0.9
+        });
+    </script>
 
 {% endblock %}
