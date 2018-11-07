@@ -1,35 +1,41 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+	font-size: 0.8rem;
+}
+
+
 /* Header */
 
 header {
 	position: relative;
-	height: 600px;
-	background: url("/static/images/grad.jpg") no-repeat center center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	max-height: 500px;
+	background: url("/static/images/badge.jpg") no-repeat fixed;
+	background-position:center top;
 	background-size: cover;
-	font-family: 'Assistant', sans-serif;
 	opacity: 0.9;
-	color: white;
-}
-
-header img {
-	text-align: center;
-	display: block;
-	margin: 0;
-}
-
-h1 {
-	padding-top: 20px;
-	padding-bottom: 15px;
+	color: #fff;
+	margin: auto;
+	overflow: visible;
+	padding-top: 7%;
+	padding-bottom: 20%;
 }
 
 header h1 {
-	font-size: 60px;
-	font-weight: bold;
+	font-size: 2rem;
 }
 
 header h2 {
-	color: #fff;
+	font-size: 2rem;
+	font-family: 'Dancing Script', cursive;
+}
+
+header p {
+	font-size: 0.8rem;
 }
 
 svg {
@@ -41,32 +47,21 @@ svg {
 	/* set height to pixels if you want angle to change with screen width */
 }
 
-.showcase h3 {
-	color: #fff;
-}
-
-.showcase img {
-	margin:0;
-	padding-top: 120px;
-}
-
-
 /* Brotherhood */
 
 #brotherhood {
-	margin: auto;
-	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 5%;
 }
 
 #brotherhood h2 {
-	padding-top: 20px;
 	text-align: center;
 }
 
 #brotherhood p, #brotherhood img {
-	font-size: 18px;
+	font-size: 1rem;
 	margin: 10px;
+	text-align: justify;
+	padding: 2%;
 }
 
 #brotherhood img {
@@ -81,8 +76,8 @@ svg {
 	height: auto;
 	margin: auto;
 	min-height: 880px;
-	padding-bottom: 30px;
-	background-image: linear-gradient(#823CC9, #544382);
+	padding: 5%;
+	background-image: linear-gradient(#231933, #5b439c);
 }
 
 #values h2 {
@@ -100,6 +95,8 @@ svg {
 #values .fas {
 	display:block;
 	margin: 20px;
+	color: rgb(226, 190, 32);
+	padding-top: 20px;
 }
 
 .faicon {
@@ -108,7 +105,6 @@ svg {
 	vertical-align: bottom;
 	font-size: 60px;
 	margin: auto;
-	color: #fff;
 }
 
 #values h3 {
@@ -119,7 +115,7 @@ svg #values {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 10vw;
+	height: 8vw;
 	/* set height to pixels if you want angle to change with screen width */
 }
 
@@ -133,7 +129,7 @@ svg #values {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+	margin: 0;
 }
 
 #school h2, #school img {
@@ -150,9 +146,8 @@ svg #values {
 
 #school img {
 	display: block;
-	padding-top: 35px;
-	padding-bottom: 20px;
-	width: 99%;
+	padding-top: 60px;
+	max-width: 300px;
 }
 
 #school p {

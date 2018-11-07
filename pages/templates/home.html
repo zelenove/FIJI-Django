@@ -2,45 +2,43 @@
 {% load static %}
 {% block content %}
 <header>
-    <div class="container showcase">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <img src="{% static 'images/fiji_crest.png'%}" width="10%" alt="Fijiheader">
                 <h1>Phi Gamma Delta</h1>
-                <h2>Tau Kappa Chapter</h2>
-                <h2>University of Toronto</h2>
+                <h2>Tau Kappa</h2>
+                <p>
+                    <br>
+                    Founded in 1921, the Tau Kappa chapter of FIJI <br>
+                    was the first chapter in Canada. Come see what <br>
+                    makes our brotherhood unique! 
+                </p>
+                <button type="button">Join today!</button> 
             </div>
         </div>  
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
-		<polygon fill="#FFFFFF" style="stroke:none; stroke-width:0" points="0,100 100,0 100,100"/>
-	</svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="#FFFFFF" style="stroke:none; stroke-width:0" points="0,0 0,101 100,101"/>
+    </svg>
 </header>
 
 <div id="brotherhood">
     <div class="container">
-        <h2>Our Brotherhood</h2>
-        <hr>
-        <div class="row">
-            <div class="col-md-6">
-                <img src="{% static 'images/pig.png'%}" alt="chapter picture" width="80%">
-            </div>
-            <div class="col-md-6">
-                <p>
-                    We believe leaders can be everyone, everywhere. In fact, at FIJI, everyone within our fraternity walls is a leader in their own right. 
-                    And there are a few principles we believe—and we believe everyone should believe—about life as a college man. These truths drive us, motivate us, 
-                    and ultimately help us redefine the power of leadership. We’re big believers in doing right by our neighbors. After all, we grew up in Toronto 
-                    and we believe this place has much to offer. So we do what we can to support the community we live in.
-                </p>
-            </div>
-        </div>
+        <h2>Persistence!</h2>
+            <p>
+                    "Nothing in this world can take the place of persistence. 
+                    Talent will not: nothing is more common than unsuccessful men with talent. 
+                    Genius will not; unrewarded genius is almost a proverb. 
+                    Education will not: the world is full of educated derelicts. 
+                    Persistence and determination alone are omnipotent." -Calvin Coolidge
+                    
+                
+            </p>
+            <img src="{% static 'images/pig.png'%}" alt="chapter picture" width="90%">
     </div>
 </div>
 
 <div id="values">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon fill="#FFFFFF" style="stroke:none; stroke-width:0" points="0,0 0,100 100,100"/>
-    </svg>
     <div class="container">
         <i class="fas fa-home faicon" style="padding-top: 30px;"></i>
         <h3 class="valuesLeft">Founding</h3>
@@ -60,8 +58,6 @@
         11,000+ undergraduate brothers in 151 Chapters and 14 Colonies</h4>
     </div>
 </div>
-
-<div class="container" style="min-height: 400px; margin: 0;"></div>
 
 <div id="school">
     <div class="container">
