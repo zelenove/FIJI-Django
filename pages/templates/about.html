@@ -1,7 +1,64 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
 
-<a href="{% url 'home' %}">Home</a> | <a href="{% url 'about' %}">About</a>
-ABOUT!!
+<div id="purple" class="text-center">
+    <h1>- Our Mission -</h1>
+    <h3> Building courageous leaders!<h3>
+</div>
 
+<div class="padding">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+        <img src="{% static 'images/pig.png'%}" alt="chapter picture" width="90%">
+        </div>
+        <div class="col-sm-6 text-center">
+        <h2>About Our Brotherhood.</h2>
+        <p class="lead">The Tau Kappa chapter was founded in 1914 as Phi Sigma Tau (Physical Sciences Toronto), 
+        a greek letter society for engineers at the University of Toronto. In 1923 Phi 
+        Sigma Tau was officially chartered as the first Canadian chapter of Phi Gamma Delta. Nearly 
+        100 years later, the brothers of FIJI still strive to live by the ideals instilled by our 
+        founding members: Friendship, Knowledge, Service, Morality, and Excellence. </p>
+
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="school">
+    <div class="container">
+        <div class="row">
+                <div class="col-md-6">
+                    <h2>Did you know?</h2>
+                    <p>Phi Gamma Delta gives out millions of dollars in scholarships to our brothers every year. The Foundation's Triple A is a $250 USD scholarship available to newly initiated members of Phi Gamma Delta who earn a 3.2 GPA during their pledging semester.</p>
+                </div>
+                <div class="col-md-4 offset-md-1">
+                    <img src="{% static 'images/black.png'%}" alt="">
+                </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon fill="#FFFFFF" style="stroke:none; stroke-width:0" points="0,100 100,0 100,100"/>
+  </svg>
+</div>
+
+<div class="padding">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+        <h4>Our House.</h4>
+        <p>The Tau Kappa chapter was founded in 1914 as Phi Sigma Tau (Physical Sciences Toronto), 
+        a greek letter society for engineers at the University of Toronto. In 1923 Phi  
+        founding members: Friendship, Knowledge, Service, Morality, and Excellence. </p>
+        <p>The Tau Kappa chapter was founded in 1914 as Phi Sigma Tau (Physical Sciences Toronto), 
+        a greek letter society for engineers at the University of Toronto. In 1923 Phi  
+        founding members: Friendship, Knowledge, Service, Morality, and Excellence. </p>
+        </div>
+        <div class="col-sm-6">
+        <img src="{% static 'images/house.jpeg'%}" alt="house picture" width="90%">
+        </div>
+    </div>
+</div>
+</div>
 {% endblock %}
