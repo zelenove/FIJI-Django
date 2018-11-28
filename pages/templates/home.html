@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
+
 <header>
     <div class="container">
         <div class="row">
@@ -22,66 +23,37 @@
     </svg>
 </header>
 
-<div id="brotherhood">
+<div id="socialmedia">
     <div class="container">
-        <h2>Follow us on social media!</h2>
-            <p>
-                    "Nothing in this world can take the place of persistence. 
-                    Talent will not: nothing is more common than unsuccessful men with talent. 
-                    Genius will not; unrewarded genius is almost a proverb. 
-                    Education will not: the world is full of educated derelicts. 
-                    Persistence and determination alone are omnipotent." -Calvin Coolidge
-                    
-                
-            </p>
-            <img src="{% static 'images/pig.png'%}" alt="chapter picture" width="90%">
+    <h2>Follow us on social media.</h2>
+        <!-- InstaWidget -->
+        <a href="https://instawidget.net/v/user/fijiuoft" id="link-9b59729a789b29a7ac37c05c6f28515f8a4f2b67fc3d2c8ca2f72d8cc5c34bae">@fijiuoft</a>
+        <script src="https://instawidget.net/js/instawidget.js?u=9b59729a789b29a7ac37c05c6f28515f8a4f2b67fc3d2c8ca2f72d8cc5c34bae&width=960px"></script>
     </div>
 </div>
 
-<div id="values">
-    <div class="container">
-        <i class="fas fa-home faicon" style="padding-top: 30px;"></i>
-        <h3 class="valuesLeft">Founding</h3>
-        <h4 class="valuesLeft">May 1, 1848 at Jefferson College in Canonsburg, PA</h4>
-    
-        <i class="fas fa-star faicon"></i>
-        <h3 class="valuesRight">Our Values</h3>
-        <h4 class="valuesRight">Friendship, Knowledge, Service, Morality, Excellence</h4>
-        
-        <i class="fas fa-handshake faicon"></i>
-        <h3 class="valuesLeft">Our Mission</h3>
-        <h4 class="valuesLeft">Phi Gamma Delta unites men in enduring friendships, stimulates the pursuit of knowledge, and builds courageous leaders who serve the world with the best that is in them.</h4>
-
-        <i class="fas fa-calculator faicon"></i>
-        <h3 class="valuesRight">By The Numbers</h3>
-        <h4 class="valuesRight">180,000+ initiated brothers since 1848.
-        11,000+ undergraduate brothers in 151 Chapters and 14 Colonies</h4>
-    </div>
+<div id="purple">
 </div>
-
-
 
 <div id="prez">
-    <div class="container">
-        <h2 style="text-align: center; margin-top: 20px;">Message from the Chapter President</h2>
+    <div class="container text-center">
+        <h2>Message from the Chapter President</h2>
         <hr>
         <div class="row">
             <div class="col-sm-6">
-                <p style="padding-top: 30px;">Our values help us seek those whom best match the qualities 
+                <p>"Our values help us seek those whom best match the qualities 
                 of a Fiji Gentlemen and of a candidate who can take full advantage of what our fraternity 
                 has to offer. Phi Gamma Delta provides opportunities to build meaningful connections and 
                 friendships, practice new skills, develop as a person and as a leader, all while maintaining 
-                the highest scholarship possible. Whether you want an chance to network with a large 
-                collection of well established Graduate Brothers, meet academically and culturally diverse 
-                people, receive scholarships from our Educational Foundation, live in the heart of downtown 
-                Toronto with a family of peers, or if you just want to get better at Water Pong, Fiji is 
-                the place for you.</p>
+                the highest scholarship possible. Whether you want to meet academically and culturally diverse 
+                people, receive scholarships from our Educational Foundation, give back to the community, 
+                or network with a large group of well established Graduate Brothers, Fiji is the place for you."</p>
+                <br>
+                <h3>- Stephen Joly</h3>
             </div>
 
             <div class="col-sm-6 text-center">
-                <img src="{% static 'images/joly.jpg'%}" width="100%" alt="President">
-                <h3>Stephen Joly</h3>
-                <p>Chapter President</p>
+                <img src="{% static 'images/brothers/stephen2.jpg'%}" width="60%" alt="President">
             </div>
         </div>
     </div>
