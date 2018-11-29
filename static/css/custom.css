@@ -54,6 +54,7 @@ svg {
 	text-align: center;
 	padding-bottom: 70px;
 	padding-top: 20px;
+	padding-left: 15px;
 }
 
 #socialmedia h2 {
@@ -98,9 +99,12 @@ svg {
 	text-align: center;
 }
 
+
 #school img {
 	display: block;
 	padding-top: 60px;
+	padding-left: 60px;
+	text-align: center;
 	max-width: 300px;
 }
 
@@ -109,7 +113,7 @@ svg {
 }
 
 #prez {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 	padding-top: 30px;
 }
 
@@ -134,8 +138,9 @@ svg {
 	font-family: 'Dancing Script', cursive;
 }
 
-#prez .col-sm-6 {
+#prez .col-lg-6 {
 	padding-top: 2em;
+	padding-bottom: 1em;
 }
 
 /* ABOUT PAGE*/
@@ -159,30 +164,6 @@ svg {
 
 #purple .container {
 	text-align: center;
-}
-
-
-@media(max-width:500px){
-	header {
-		background-attachment: inherit;
-	}
-
-	#join {
-		background-attachment: inherit;
-	}
-
-	#school img {
-		margin-bottom: 30px;
-	}
-
-	.marginFix {
-		padding-bottom: 30px;
-	}
-
-	#social .fb-page {
-		padding-left: 0;
-	}
-
 }
 
 
@@ -342,3 +323,12 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+
+@media (max-width: 1000px) {
+	#socialmedia {
+	display: none;
+	}
+	#purple {
+	display: none;
+	}
+	}
