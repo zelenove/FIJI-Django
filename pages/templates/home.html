@@ -2,6 +2,24 @@
 {% load static %}
 {% block content %}
 
+
+<style>
+    header {
+        position: relative;
+        max-height: 500px;
+        background-position:center top;
+        background-repeat: no-repeat;
+        background: url("{% static 'pages/badge.jpg' %}");
+        background-size: cover;
+        opacity: 0.9;
+        color: #fff;
+        margin: auto;
+        overflow: visible;
+        padding-top: 7%;
+        padding-bottom: 20%;
+    }
+</style>
+
 <header>
     <div class="container">
         <div class="row">
@@ -34,6 +52,22 @@
     </div>
 </div>
 
+<style>
+	#purple {
+		position: relative;
+		padding-top: 80px;
+		min-height: 250px;
+		color: #FFFFFF;
+		height: auto;
+  
+		background: url("{% static 'pages/header.png'%}") no-repeat center center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0;
+	}
+</style>
+
 <div id="purple">
 </div>
 
@@ -55,7 +89,7 @@
             </div>
 
             <div class="col-lg-6 text-center">
-                <img src="{% static 'images/brothers/stephen2.jpg'%}" width="60%" alt="President">
+                <img src="{% static 'brothers/stephen2.jpg'%}" width="60%" alt="President">
             </div>
         </div>
     </div>

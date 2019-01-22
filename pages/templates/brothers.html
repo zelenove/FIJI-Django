@@ -2,6 +2,22 @@
 {% load static %}
 {% block content %}
 
+<style>
+	#purple {
+		position: relative;
+		padding-top: 80px;
+		min-height: 250px;
+		color: #FFFFFF;
+		height: auto;
+  
+		background: url("{% static 'pages/header.png'%}") no-repeat center center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0;
+	}
+</style>
+
 <div id="purple">
     <div class="container" style="text-align:center;">
         <h1 >Meet the brothers.</h1>
@@ -21,7 +37,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class="img-fluid" src="{% static 'images/brothers/stephen.jpg'%}" alt="card image"></p>
+                                    <p><img class="img-fluid" src="{% static 'brothers/stephen.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Stephen Joly</h4>
                                     <p class="card-text">Chapter President</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -59,7 +75,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/jake.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/jake.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Jake Anderson</h4>
                                     <p class="card-text">Treasurer</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -97,7 +113,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/anthony.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/anthony.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Anthony Khoury</h4>
                                     <p class="card-text">Corresponding Secretary</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -135,7 +151,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/nathan.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/nathan.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Nathan Reeves</h4>
                                     <p class="card-text">Recording Secretary</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -168,7 +184,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/matthew.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/matthew.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Matthew Tran</h4>
                                     <p class="card-text">Historian</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -206,7 +222,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/joshua.jpeg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/joshua.jpeg'%}" alt="card image"></p>
                                     <h4 class="card-title">Joshua Gomez-Szoke</h4>
                                     <p class="card-text">Graduate Relations Chairman</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -244,7 +260,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/dwij.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/dwij.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Dwij Patel</h4>
                                     <p class="card-text">Recruitment Chairman</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -282,7 +298,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/zack.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/zack.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Zack Robbins</h4>
                                     <p class="card-text">Service Chairman</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -315,7 +331,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/ian.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/ian.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">يان ارمور</h4>
                                     <p class="card-text">Social Chairman</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -349,7 +365,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/kuba.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/kuba.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Kuba Wernerowski</h4>
                                     <p class="card-text">Philanthropy Chairman</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -387,7 +403,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/paul.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/paul.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Paul Suk</h4>
                                     <p class="card-text">New Member Educator</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -425,7 +441,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/mike.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/mike.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Michael Lioniello</h4>
                                     <p class="card-text">Purple Chairman</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -463,7 +479,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/eugene.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/eugene.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Eugene Zelenov</h4>
                                     <p class="card-text">House Manager/Webmaster</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -501,7 +517,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/muhammud.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/muhammud.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Muhammud Ammar Aamir</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -540,7 +556,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/adam.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/adam.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Adam Cocco</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -578,7 +594,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/henry.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/henry.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Henry Gibbons</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -611,7 +627,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/julian.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/julian.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Julian Gonsalves</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -649,7 +665,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/oliver.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/oliver.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Oliver Heitz</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -687,7 +703,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/hiro.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/hiro.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Hiromitsu Higashi</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -725,7 +741,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/justin.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/justin.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Justin Huang</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -763,7 +779,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/louie.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/louie.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Louie Li</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -796,7 +812,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/alex.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/alex.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Alex Lin</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -834,7 +850,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/andrew.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/andrew.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Andrew Olechtchouk</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -872,7 +888,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/hendo.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/hendo.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Henry Rhyu</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -910,7 +926,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="{% static 'images/brothers/dima.jpg'%}" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="{% static 'brothers/dima.jpg'%}" alt="card image"></p>
                                     <h4 class="card-title">Dima Sochnyev</h4>
                                     <br>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>

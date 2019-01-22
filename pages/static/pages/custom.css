@@ -1,0 +1,473 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar {
+	font-size: 0.8rem;
+}
+
+
+/* Header */
+
+header {
+	position: relative;
+	max-height: 500px;
+	background-position:center top;
+	background: url("/pages/badge.jpg") no-repeat fixed;
+	background-size: cover;
+	opacity: 0.9;
+	color: #fff;
+	margin: auto;
+	overflow: visible;
+	padding-top: 7%;
+	padding-bottom: 20%;
+}
+
+header h1 {
+	font-size: 2rem;
+}
+
+header h2 {
+	font-size: 2rem;
+	font-family: 'Dancing Script', cursive;
+}
+
+header p {
+	font-size: 0.8rem;
+}
+
+svg {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 8vw;
+	border:none;
+	/* set height to pixels if you want angle to change with screen width */
+}
+
+
+.button::-moz-focus-inner{
+	border: 0;
+	padding: 0;
+  }
+  
+  .button{
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	padding: 6px 20px;
+	margin: 0;
+	cursor: pointer;
+	border: 1px solid #bbb;
+	overflow: visible;
+	font: bold 13px arial, helvetica, sans-serif;
+	text-decoration: none;
+	white-space: nowrap;
+	color: #555;
+	
+	background-color: #ddd;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+	background-image: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+	background-image: -ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+	background-image: -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+	background-image: linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+	
+	-webkit-transition: background-color .2s ease-out;
+	-moz-transition: background-color .2s ease-out;
+	-ms-transition: background-color .2s ease-out;
+	-o-transition: background-color .2s ease-out;
+	transition: background-color .2s ease-out;
+	background-clip: padding-box; /* Fix bleeding */
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+	text-shadow: 0 1px 0 rgba(255,255,255, .9);
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .button:hover{
+	background-color: #eee;
+	color: #555;
+  }
+  
+  .button:active{
+	background: #e9e9e9;
+	position: relative;
+	top: 1px;
+	text-shadow: none;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  }
+  
+  .button[disabled], .button[disabled]:hover, .button[disabled]:active{
+	border-color: #eaeaea;
+	background: #fafafa;
+	cursor: default;
+	position: static;
+	color: #999;
+	/* Usually, !important should be avoided but here it's really needed :) */
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+  }
+  
+  /* Smaller buttons styles */
+  
+  .button.small{
+	padding: 4px 12px;
+  }
+  
+/* Social Media */
+
+#socialmedia .container {
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+#socialmedia h2 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#brotherhood p, #brotherhood img {
+	font-size: 1rem;
+	margin: 10px;
+	text-align: justify;
+	padding: 2%;
+}
+
+#brotherhood img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Events */
+
+#school {
+	position: relative;
+	min-height: 350px;
+	height: auto;
+	background: url('/static/images/header.png') no-repeat center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+}
+
+#school h2, #school img {
+	text-align: center;
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+#school p {
+	color: #fff;
+	text-align: center;
+}
+
+
+#school img {
+	display: block;
+	padding-top: 60px;
+	padding-left: 60px;
+	text-align: center;
+	max-width: 300px;
+}
+
+#school p {
+	font-size: 18px;
+}
+
+#prez {
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+#prez .box {
+	margin: 30px;
+	padding: 10px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+
+#prez p {
+	font-size: 18px;
+	margin: 0;
+}
+
+#prez h3 {
+	text-align: right;
+	padding-right: 3em;
+	font-family: 'Dancing Script', cursive;
+}
+
+#prez .col-lg-6 {
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+/* ABOUT PAGE*/
+
+.padding {
+	padding: 80px 0;
+}
+
+#purple {
+	position: relative;
+	padding-top: 80px;
+	min-height: 250px;
+	color: #FFFFFF;
+	height: auto;
+	background: url('/static/images/header.png') no-repeat center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+}
+
+#purple .container {
+	text-align: center;
+}
+
+
+#footer, #footer a{color:#FFFFFF; background-color:#1E1E1E; text-align: center}
+#footer p{margin:0; padding:20px 0};
+
+/* Meet the Brothers */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #9036b9;
+    border-color: #9036b9;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #9036b9;
+    border-color: #9036b9;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #9036b9;
+    margin-bottom: 50px;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.square-icon {
+    background: #0077B5;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.circle-icon {
+    background: #4267B2;
+    width: 40px;
+	height: 40px;
+	border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+
+.backside .list-inline {
+	text-align: center;
+}
+.backside .card a {
+    font-size: 24px;
+    color: #ffffff !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #9036b9 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+/*Contact sectiom*/
+.content-header{
+	color:#ffc800;
+	font-size: 45px;
+  }
+  
+  .section-content{
+	text-align: center; 
+  
+  }
+  #contact{
+	padding-top: 60px;
+	padding-bottom: 6em;
+	width: 100%;
+	width: 100vw;
+	background: #3a6186; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #491579 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+	background: url('/static/images/header.png') no-repeat center center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color : #fff;    
+  }
+  .contact-section{
+	padding-top: 40px;
+  }
+  .contact-section .col-md-6{
+	width: 50%;
+  }
+  
+  .form-group{
+	margin-top: 10px;
+  }
+  label{
+	font-size: 1.3em;
+	line-height: 1em;
+	font-weight: normal;
+  }
+  .form-control{
+	font-size: 1.3em;
+	color: #080808;
+  }
+  textarea.form-control {
+	  height: 135px;
+	 /* margin-top: px;*/
+  }
+  
+  .submit{
+	font-size: 1em;
+	float: right;
+	width: 150px;
+	color: rgb(17, 15, 15);
+  
+  }
+
+
+@media (max-width: 1000px) {
+	#socialmedia {
+	display: none;
+	}
+	#purple {
+	display: none;
+	}
+	}
+
