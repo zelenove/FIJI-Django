@@ -12,5 +12,8 @@ def brothers(request):
 def faq(request):
     return render(request, "faq.html", {})
 
+def login(request):
+    return render(request, "login.html", {})
+
 def contact(request):
     return render(request, "contact.html", {})

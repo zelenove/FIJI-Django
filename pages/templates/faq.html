@@ -1,6 +1,54 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
 
-FAQ OR NAH, NAH lol 
 
+<style>
+	#purple {
+		position: relative;
+		padding-top: 80px;
+		min-height: 250px;
+		color: #FFFFFF;
+		height: auto;
+  
+		background: url("{% static 'pages/header.png'%}") no-repeat center center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0;
+	}
+</style>
+
+<div id="purple">
+    <div class="container" style="text-align:center;">
+        <h1 >Join our brotherhood.</h1>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon fill="#FFFFFF" style="stroke:none; stroke-width:0" points="0,100 100,0 100,100"/>
+  </svg>
+</div>
+
+
+<div class="padding">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+        <h4>Rush FIJI.</h4>
+        &nbsp
+        <p>FIJI is open to prospective members at any time during the school year. We have a lot of great events going on specifically
+         for the purpose of welcoming you into our house including bar nights, sports events, games and barbecues.</p>
+        <p>
+        If you are a student at the University of Toronto who is interested in joining, be sure to reach out to our Recruitment Chair.
+        </p>
+        &nbsp
+        <h6>Dwij Patel</h6>
+        <h6>Recruitment Chairperson</h6>
+        <h6>dwijpatel@mail.utorono.ca</h6>
+        </div>
+        <div class="col-md-6">
+        <img src="{% static 'pages/iron_ring.jpg'%}" alt="house picture" width="90%">
+        </div>
+    </div>
+</div>
+</div>
 {% endblock %}
