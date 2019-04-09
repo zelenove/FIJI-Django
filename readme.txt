@@ -14,3 +14,14 @@ To get started:
 
 5. Exiting the virtualenv:
     (env)$ deactivate
+
+UWSGI and NGINX commands:
+
+Statrting uwsgi from a virtual env:
+    (env)$ uwsgi --ini django.ini --pidfile=uwsgi.pid
+
+Stopping the server:
+    (env)$ uwsgi --stop uwsgi.pid
+
+Nginx:
+    $ sudo service nginx {restart|stop|start}
