@@ -1,0 +1,27 @@
+
+/* ABOUT PAGE*/
+
+.padding {
+	padding: 80px 0;
+}
+
+#purple {
+	position: relative;
+	padding-top: 80px;
+	min-height: 250px;
+	color: #FFFFFF;
+	height: auto;
+	background: url('/static/images/header.png') no-repeat center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+}
+
+#purple .container {
+	text-align: center;
+}
+
+
+#footer, #footer a{color:#FFFFFF; background-color:#1E1E1E; text-align: center}
+#footer p{margin:0; padding:20px 0};

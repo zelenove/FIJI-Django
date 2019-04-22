@@ -1,0 +1,94 @@
+/* Social Media */
+
+#socialmedia .container {
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+#socialmedia h2 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#brotherhood p, #brotherhood img {
+	font-size: 1rem;
+	margin: 10px;
+	text-align: justify;
+	padding: 2%;
+}
+
+#brotherhood img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Events */
+
+#school {
+	position: relative;
+	min-height: 350px;
+	height: auto;
+	background: url('/static/images/header.png') no-repeat center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+}
+
+#school h2, #school img {
+	text-align: center;
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+#school p {
+	color: #fff;
+	text-align: center;
+}
+
+
+#school img {
+	display: block;
+	padding-top: 60px;
+	padding-left: 60px;
+	text-align: center;
+	max-width: 300px;
+}
+
+#school p {
+	font-size: 18px;
+}
+
+#prez {
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+#prez .box {
+	margin: 30px;
+	padding: 10px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+
+#prez p {
+	font-size: 18px;
+	margin: 0;
+}
+
+#prez h3 {
+	text-align: right;
+	padding-right: 3em;
+	font-family: 'Dancing Script', cursive;
+}
+
+#prez .col-lg-6 {
+	padding-top: 2em;
+	padding-bottom: 1em;
+}

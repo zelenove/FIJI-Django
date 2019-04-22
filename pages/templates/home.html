@@ -2,22 +2,20 @@
 {% load static %}
 {% block content %}
 
-
 <style>
-    header {
-        position: relative;
-        max-height: 500px;
-        background-position:center top;
-        background-repeat: no-repeat;
-        background: url("{% static 'pages/badge.jpg' %}");
-        background-size: cover;
-        opacity: 0.9;
-        color: #fff;
-        margin: auto;
-        overflow: visible;
-        padding-top: 7%;
-        padding-bottom: 20%;
-    }
+header {
+	position: relative;
+	max-height: 500px;
+	background-position:center top;
+    background: url("{% static 'pages/badge.jpg'%}") no-repeat fixed;
+	background-size: cover;
+	opacity: 0.9;
+	color: #fff;
+	margin: auto;
+	overflow: visible;
+	padding-top: 7%;
+	padding-bottom: 20%;
+}
 </style>
 
 <header>

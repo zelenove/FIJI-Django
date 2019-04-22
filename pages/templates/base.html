@@ -1,4 +1,6 @@
 {% load static %}
+{% load sass_tags %}
+
 <!DOCTYPE html>
 <html lang="en">
 <!--Login page-->
@@ -16,6 +18,7 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'pages/custom.css' %}">
+    <link rel="stylesheet" href="{% sass_src 'pages/css/custom.scss' %}">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
